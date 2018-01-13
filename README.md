@@ -15,6 +15,7 @@ Also different findAndHoldSeats implementations could be added to be able to fin
 3.	Run mvnw clean install
 4.	Run mvnw spring-boot:run
 Default port is 8080 and it can be configured by changing the src/main/resources/application.properties file
+If mvnw command doesn't work, please try again with mvn command instead
 
 # Sample Postman Requests:
 GET /numSeatsAvailable/ HTTP/1.1
